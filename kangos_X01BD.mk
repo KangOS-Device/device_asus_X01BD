@@ -22,9 +22,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 KANGOS_BUILDTYPE := OFFICIAL
 
-# ZenParts
-$(call inherit-product-if-exists, packages/apps/ZenParts/zenparts.mk)
-
 # FaceUnlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
